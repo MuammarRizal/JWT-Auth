@@ -1,0 +1,23 @@
+GET http://localhost:5000/users
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Muammar Rizal 2",
+    "email" : "muammarrizal@gmail.com",
+    "password" : "1234567",
+    "confPassword": "123456"
+}
+
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "muammarrizal@gmail.com",
+    "password" : "123456"
+}
